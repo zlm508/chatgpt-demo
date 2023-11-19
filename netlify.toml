@@ -1,6 +1,6 @@
 [build.environment]
   NETLIFY_USE_PNPM = "true"
- NODE_VERSION = "21.2.0"
+ NODE_VERSION = "20.9.0"
 [build]
   command = "OUTPUT=netlify astro build"
   publish = "dist"
