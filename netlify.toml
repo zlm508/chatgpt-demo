@@ -1,6 +1,5 @@
 [build.environment]
   NETLIFY_USE_PNPM = "true"
-  NODE_VERSION = "12.22.12"
 
 [build]
   command = "OUTPUT=netlify astro build"
